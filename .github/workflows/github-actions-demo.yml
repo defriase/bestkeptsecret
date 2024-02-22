@@ -6,6 +6,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "$yt_api_df"
+      - run: echo "$yt_api_fpm"
         env:
-          yt_api_df: ${{ secrets.YT_API_DF }}
+          yt_api_fpm: ${{ secrets.YT_API_fpm }}
+
