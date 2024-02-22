@@ -8,5 +8,5 @@ jobs:
     steps:
       - run: echo "$defria"
         env:
-          defria: ${{ defria }}
+          defria: ${{ env.defria }}
 
