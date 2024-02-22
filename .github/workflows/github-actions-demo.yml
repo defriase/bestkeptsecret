@@ -10,4 +10,3 @@ jobs:
         with:
           yt_api_df: $ {{ secrets.YT_API_DF }}
         run: echo "${yt_api_df}"
-
