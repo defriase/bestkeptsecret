@@ -6,7 +6,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "$yt_api_fpm"
+      - run: echo "$defria"
         env:
-          yt_api_fpm: ${{ secrets.YT_API_fpm }}
+          defria: ${{ defria }}
 
