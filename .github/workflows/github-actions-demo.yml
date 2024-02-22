@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "${yt_api_df}"
-        with:
+        env:
           yt_api_df: $ {{ secrets.YT_API_DF }}
