@@ -8,4 +8,4 @@ jobs:
     steps:
       - run: echo "$yt_api_df"
         env:
-          yt_api_df: $ {{ secrets.YT_API_DF }}
+          yt_api_df: ${{ secrets.YT_API_DF }}
