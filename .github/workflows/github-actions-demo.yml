@@ -1,9 +1,9 @@
 ---
 name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing this shit
+run-name: "Deploy subtitles"
 on: [push]
 jobs:
-  Deploy-subtitles:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - run: echo "${{ vars.DEFRIA }}"
