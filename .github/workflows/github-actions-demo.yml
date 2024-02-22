@@ -6,6 +6,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${yt_api_df}"
+      - run: echo "$yt_api_df"
         env:
           yt_api_df: $ {{ secrets.YT_API_DF }}
