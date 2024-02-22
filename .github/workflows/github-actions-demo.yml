@@ -6,7 +6,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "$defria"
-        env:
-          defria: ${{ env.defria }}
+      - run: echo "${{ env.defria }}"
 
