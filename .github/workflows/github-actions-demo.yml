@@ -6,7 +6,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: "This is an echo of a secret!"
+      - run: echo "${yt_api_df}"
         with:
           yt_api_df: $ {{ secrets.YT_API_DF }}
-        run: echo "${yt_api_df}"
